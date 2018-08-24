@@ -9,12 +9,12 @@ const links = require('./links.json');
 bot.login(config.token);
 
 bot.on("guildMemberAdd", member => {
-    member.guild.channels.get('481531594805346306').send(  member.user.username  +  ' acaba de se juntar à equipe! Agora, qual seria um bom codinome pra ele...?');
+    member.guild.channels.get('437726733832159235').send(  member.user.username  +  ' acaba de se juntar à equipe! Agora, qual seria um bom codinome pra ele...?');
 
 });
 
 bot.on("guildMemberRemove", member => {
-    member.guild.channels.get('481531594805346306').send(member.user.username + ' deixou o Palace')
+    member.guild.channels.get('437726733832159235').send(member.user.username + ' deixou o Palace')
 })
 
 bot.on('message', message => {
