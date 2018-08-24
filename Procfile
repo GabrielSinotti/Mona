@@ -1,1 +1,1 @@
-worker node bot.js Mona
+worker: node bot.js
